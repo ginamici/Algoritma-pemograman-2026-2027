@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+
+ int main(){
+    char nm1[50];
+    char nm2[50];
+
+    puts("Masukan nama pertama =");gets(nm1);
+    printf("Masukkan nama kedua  =");scanf("%s",nm2);
+
+    printf("\n\n");
+    puts("Selamat Datang");puts(nm1);
+    printf("Selamat Datang %s",nm2);
+
+}
