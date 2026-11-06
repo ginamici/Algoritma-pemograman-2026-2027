@@ -1,39 +1,20 @@
-#include <stdio.h> 
-#include <conio.h> 
 #include <iostream> 
-using namespace std; 
+#include <string>
+ using namespace std;
  
-main() 
-{ 
-    char a[30] = "---BELAJAR TIPE DATA---"; 
-    short b; 
-    int c; 
-    long d; 
-    float e; 
-    double f; 
-    int g = 1; 
-    int h = 2; 
- 
-    b = 10000; 
-    c = 1000000; 
-    d = 1000000000; 
-    e = 3.12; 
-    f = 3.12345; 
- 
-    cout << a << endl; 
-    cout << "Tipe data short : " << b << endl; 
-    cout << "Tipe data int : " << c << endl; 
-    cout << "Tipe data long : " << d << endl; 
-    cout << "Tipe data float : " << e << endl; 
-    cout << "Tipe data double : " << f << endl; 
-    cout << endl; 
- 
-    cout << "Berikut Hasil Boolean : " << endl; 
-    cout << (g > h); 
-    cout << endl; 
-    cout << (g < h); 
-    cout << endl; 
-    cout << (g == h); 
-    cout << endl; 
-    cout << (g != h); 
-}
+ int main() {
+    int umur = 19;
+    double tinggi = 170.5;
+    char kelas = 'A'; 
+    bool aktif = true; 
+    string nama = "Budi"; 
+
+    const string KAMPUS = "Universitas Djuanda"; 
+    cout << "int    : " << umur << endl;
+    cout << "double : " << tinggi << endl; 
+    cout << "char   : " << kelas << endl; 
+    cout << "bool   : " << aktif << endl; 
+    cout << "string : " << nama << endl; 
+    cout << "const  : " << KAMPUS << endl;
+    return 0;
+ }
